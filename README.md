@@ -4,7 +4,7 @@ A minimal and extendable CRUD service and repository layer for Node.js + MongoDB
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 npm install crud-kit
@@ -12,20 +12,19 @@ npm install crud-kit
 
 ---
 
-## 🚀 Features
+##  Features
 
-* ✅ Reusable Repository Layer
-* ✅ Service Layer with Joi (or custom) Validation Support
-* ✅ Built-in Error Handling via AppError
-* ✅ Easily Extendable for Custom Logic
-* ✅ Pagination, Count, Exists, InsertMany supported
-* ✅ Works with CommonJS and ES Modules
+*  Reusable Repository Layer
+* Service Layer with Joi (or custom) Validation Support
+* Built-in Error Handling via AppError
+* Easily Extendable for Custom Logic
+* Works with CommonJS and ES Modules
 
 ---
 
-## 🧠 Project Structure Explained
+##  Project Structure Explained
 
-### 📁 Repository Folder
+###  Repository Folder
 
 > This folder connects directly to the database (MongoDB via Mongoose). It contains methods like:
 
@@ -38,11 +37,11 @@ npm install crud-kit
 * `count(filter)` → Count documents
 * `exists(filter)` → Check if any document exists
 
-👉 **This layer deals only with raw DB queries.**
+ **This layer deals only with raw DB queries.**
 
 ---
 
-### 📁 Service Folder
+###  Service Folder
 
 > This folder contains the business logic and connects the Repository to the outside world (like controllers).
 
@@ -50,7 +49,7 @@ npm install crud-kit
 * Uses `AppError` for consistent error responses
 * You can override methods for custom behavior
 
-👉 **This is the logic layer, and what your API routes should call.**
+ **This is the logic layer, and what your API routes should call.**
 
 ---
 
@@ -127,7 +126,7 @@ module.exports = UserService;
 
 ---
 
-## 📦 Importing in CommonJS or ESModules
+##  Importing in CommonJS or ESModules
 
 ```js
 // CommonJS
@@ -139,7 +138,7 @@ import { CrudService, CrudRepository, AppError } from 'crud-kit';
 
 ---
 
-## 🧪 Error Handling
+##  Error Handling
 
 Use `AppError` to throw custom errors from anywhere in your service or repository:
 
@@ -151,7 +150,7 @@ In your global error handler middleware, you can catch and respond accordingly.
 
 ---
 
-## 💡 Advanced Usage
+##  Advanced Usage
 
 * Inject custom validators, middlewares or logger
 * Create your own extended base classes if needed
@@ -159,19 +158,19 @@ In your global error handler middleware, you can catch and respond accordingly.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
 
 ---
 
-## 📄 License
+##  License
 
 MIT
 
 ---
 
-## 🔗 Author
+##  Author
 
 # Crud-Kit
 
@@ -179,7 +178,7 @@ A minimal and extendable CRUD service and repository layer for Node.js + MongoDB
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 npm install crud-kit
@@ -187,20 +186,20 @@ npm install crud-kit
 
 ---
 
-## 🚀 Features
+##  Features
 
-* ✅ Reusable Repository Layer
-* ✅ Service Layer with Joi (or custom) Validation Support
-* ✅ Built-in Error Handling via AppError
-* ✅ Easily Extendable for Custom Logic
-* ✅ Pagination, Count, Exists, InsertMany supported
-* ✅ Works with CommonJS and ES Modules
+*  Reusable Repository Layer
+*  Service Layer with Joi (or custom) Validation Support
+*  Built-in Error Handling via AppError
+*  Easily Extendable for Custom Logic
+*  Pagination, Count, Exists, InsertMany supported
+*  Works with CommonJS and ES Modules
 
 ---
 
-## 🧠 Project Structure Explained
+##  Project Structure Explained
 
-### 📁 Repository Folder
+###  Repository Folder
 
 > This folder connects directly to the database (MongoDB via Mongoose). It contains methods like:
 
@@ -213,11 +212,11 @@ npm install crud-kit
 * `count(filter)` → Count documents
 * `exists(filter)` → Check if any document exists
 
-👉 **This layer deals only with raw DB queries.**
+ **This layer deals only with raw DB queries.**
 
 ---
 
-### 📁 Service Folder
+###  Service Folder
 
 > This folder contains the business logic and connects the Repository to the outside world (like controllers).
 
@@ -225,11 +224,11 @@ npm install crud-kit
 * Uses `AppError` for consistent error responses
 * You can override methods for custom behavior
 
-👉 **This is the logic layer, and what your API routes should call.**
+ **This is the logic layer, and what your API routes should call.**
 
 ---
 
-## 🛠️ Usage
+##  Usage
 
 ### Step 1: Create Your Mongoose Model (example)
 
@@ -302,7 +301,7 @@ module.exports = UserService;
 
 ---
 
-## 📦 Importing in CommonJS or ESModules
+##  Importing in CommonJS or ESModules
 
 ```js
 // CommonJS
@@ -314,7 +313,7 @@ import { CrudService, CrudRepository, AppError } from 'crud-kit';
 
 ---
 
-## 🧪 Error Handling
+##  Error Handling
 
 Use `AppError` to throw custom errors from anywhere in your service or repository:
 
@@ -326,7 +325,7 @@ In your global error handler middleware, you can catch and respond accordingly.
 
 ---
 
-## 💡 Advanced Usage
+##  Advanced Usage
 
 * Inject custom validators, middlewares or logger
 * Create your own extended base classes if needed
@@ -334,13 +333,13 @@ In your global error handler middleware, you can catch and respond accordingly.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
 
 ---
 
-## 📄 License
+##  License
 
 MIT
 
