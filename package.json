@@ -1,5 +1,5 @@
 {
-  "name": "crud-kit",
+  "name": "crudify-kit",
   "version": "1.0.0",
   "description": "Reusable CRUD service & repository",
   "main": "src/index.js",
