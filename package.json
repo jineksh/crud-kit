@@ -1,0 +1,25 @@
+{
+  "name": "crud-kit",
+  "version": "1.0.0",
+  "description": "Reusable CRUD service & repository",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crud",
+    "service",
+    "repository",
+    "backend"
+  ],
+  "author": "jineksh chovatiya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jineksh/crud-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jineksh/crud-kit/issues"
+  },
+  "homepage": "https://github.com/jineksh/crud-kit#readme"
+}
